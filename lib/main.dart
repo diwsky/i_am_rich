@@ -8,8 +8,6 @@ void main() {
             title: Text('This is Waduh'),
             backgroundColor: Colors.blueGrey[900],
           ),
-          body: Center(
-              child: Image(
-                  image: NetworkImage(
-                      'https://media.nationalgeographic.org/assets/photos/000/284/28417.jpg'))))));
+          body:
+              Center(child: Image(image: AssetImage('images/diamond.png'))))));
 }
